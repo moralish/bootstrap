@@ -1,11 +1,5 @@
----
-layout: simple
-title: Versions
-description: An appendix of hosted documentation for nearly every release of Bootstrap, from v1 through v4.
----
-
 <div class="row">
-{{ range $i, $release := .Site.Data.apps.app }}
+{{ range $i, $release := .Site.Data.docs_versions }}
   <div class="col-md">
     <h2>{{ $release.group }}</h2>
     <p>{{ $release.description }}</p>
